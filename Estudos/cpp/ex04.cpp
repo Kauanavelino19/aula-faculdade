@@ -13,7 +13,7 @@ int main(){
 	entrada >> JurosMeses;
 	entrada >> NumeroMeses;
 
-	MvalorAcumlado = ValorDepositadoInicial * sqrt(1 + JurosMeses), NumeroMeses;
+	MvalorAcumlado = ValorDepositadoInicial * pow((1 + JurosMeses), NumeroMeses);
 	saida << MvalorAcumlado << endl;;
 	
 	entrada.close();
