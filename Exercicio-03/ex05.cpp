@@ -7,7 +7,7 @@ Esse eu consegui resolver sem IA, me senti orgurlhoso com isso
 #include <fstream> // biblioteca para arquivo 
 #include <iomanip> // biblioteca para utilizar o fixed e setprecision()
 
-using namespace std; //permitindo a usar o elemento sa bibliotea padrão (cout, cin)
+using namespace std; //permitindo a usar o elemento da bibliotea padrão (cout, cin)
 int main (){
 	int nota1, peso1, nota2, peso2, nota3, peso3; // variável inteiro
 	float soma1, soma2, mediaP; //variável ponto flutuante
